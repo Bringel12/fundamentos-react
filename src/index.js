@@ -10,25 +10,16 @@
 
 // root.render("Olá !");
 
-// import React from "react";
-// import ReactDOM from "react-dom/client";
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// const tag = <strong>Olá React!</strong>
-// ReactDOM.render(
-//     <div>
-//       {tag}
-//     </div>,
-//     document.getElementById('root')
-// );
+
 import'./index.css'
-import React from "react";
-import ReactDom from "react-dom/client";
+import React from 'react';
+import ReactDOM from 'react-dom/client'
+import Comp from './components/basicos/primeiro'
 
-const tag = <strong>Olá React</strong>;
-const root = ReactDom.createRoot(document.getElementById("root"));
 
+const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
     <div>
-        {tag}
+        <Comp></Comp>
     </div>
 )
