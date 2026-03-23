@@ -15,11 +15,16 @@ import'./index.css'
 import React from 'react';
 import ReactDOM from 'react-dom/client'
 import Comp from './components/basicos/primeiro'
+import ComParamentro from './components/basicos/ComParametro'
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
-    <div>
+    <div id='app'>
         <Comp></Comp>
+        <ComParamentro
+        titulo= "Situação do aluno"
+        aluno= "Pedro" nota={9.3}
+        />
     </div>
 )
