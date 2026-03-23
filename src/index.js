@@ -24,7 +24,11 @@ root.render(
         <Comp></Comp>
         <ComParamentro
         titulo= "Situação do aluno"
-        aluno= "Pedro" nota={9.3}
+        aluno= "Pedro Silva" nota={9.3}
+        />
+        <ComParamentro
+        titulo= "Situação do aluno"
+        aluno= "Maria Silva" nota={5.3}
         />
     </div>
 )

@@ -1,5 +1,6 @@
 import React from "react"
 export default function ComParamentro(props) {
+    const status = props.nota >= 7 ?'Aprovado' :'Reprovado';
     
      return( 
     <div>
@@ -7,7 +8,9 @@ export default function ComParamentro(props) {
         <p>
             <strong>{ props.aluno } </strong> 
             tem nota 
-            <strong> { props.nota    }</strong>
+            <strong> { props.nota    } </strong>
+            e está  <br></br>
+            <strong>   { status } </strong>!
             </p>
     </div>
     
