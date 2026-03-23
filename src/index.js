@@ -21,12 +21,16 @@ import ComParamentro from './components/basicos/ComParametro'
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
     <div id='app'>
+         {/* Componente */}
         <Comp></Comp>
         <ComParamentro
+        //  {/* propientade */}
         titulo= "Situação do aluno"
         aluno= "Pedro Silva" nota={9.3}
         />
+
         <ComParamentro
+        //{/* propientade */}
         titulo= "Situação do aluno"
         aluno= "Maria Silva" nota={5.3}
         />
